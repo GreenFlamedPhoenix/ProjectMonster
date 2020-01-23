@@ -42,4 +42,25 @@
       <Filter>Source\ProjectMonster</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\ProjectMonster\Character">
+      <UniqueIdentifier>{8db6f053-48f3-4009-ba1b-debbaf520d8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ProjectMonster\Character\PlayerCharacter.h">
+      <Filter>Source\ProjectMonster\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ProjectMonster\Character\PlayerCharacterController.h">
+      <Filter>Source\ProjectMonster\Character</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ProjectMonster\Character\PlayerCharacter.cpp">
+      <Filter>Source\ProjectMonster\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectMonster\Character\PlayerCharacterController.cpp">
+      <Filter>Source\ProjectMonster\Character</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
