@@ -9077,14 +9077,3 @@ Script Stack (0 frames):
 [2020.01.23-06.16.15:881][152]LogOutputDevice: Error: [Callstack] 0x00007ffc6a9cced1 ntdll.dll!UnknownFunction []
 [2020.01.23-06.16.15:881][152]LogOutputDevice: Error: 
 [2020.01.23-06.16.15:890][152]LogStats:                SubmitErrorReport -  0.000 s
-[2020.01.23-06.16.26:434][152]LogStats:                    SendNewReport - 10.544 s
-[2020.01.23-06.16.26:434][152]LogStats:             FDebug::EnsureFailed - 10.901 s
-[2020.01.23-06.16.26:931][152]LogUObjectHash: Compacting FUObjectHashTables data took   3.27ms
-[2020.01.23-06.16.26:997][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
-[2020.01.23-06.16.27:064][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
-[2020.01.23-06.16.27:139][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
-[2020.01.23-06.16.27:303][152]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
-[2020.01.23-06.16.27:380][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
-[2020.01.23-06.16.27:457][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
-[2020.01.23-06.16.27:554][152]LogUObjectHash: Compacting FUObjectHashTables data took   8.47ms
-[2020.01.23-06.16.27:630][152]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
