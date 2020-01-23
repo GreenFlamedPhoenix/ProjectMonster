@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectMonster",
+			"Path": "E:\\ProjectMonster\\ProjectMonster\\Source\\ProjectMonster.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectMonsterEditor",
+			"Path": "E:\\ProjectMonster\\ProjectMonster\\Source\\ProjectMonsterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,2 @@
+E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\Definitions.ProjectMonster.h
+e:\projectmonster\projectmonster\source\projectmonster\ProjectMonster.h

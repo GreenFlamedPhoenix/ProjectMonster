@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\ProjectMonster\\ProjectMonster\\Source\\ProjectMonster\\ProjectMonster.Build.cs",
+		"E:\\ProjectMonster\\ProjectMonster\\Source\\ProjectMonster.Target.cs",
+		"E:\\ProjectMonster\\ProjectMonster\\Source\\ProjectMonsterEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.1"
+}

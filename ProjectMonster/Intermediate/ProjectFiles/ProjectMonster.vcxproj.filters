@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ProjectMonster.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{16E5F27F-467B-45E7-BE3F-5AB9B1BC1812}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectMonster.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectMonsterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{87D029FD-1937-4B36-B5D0-B1CBC37FE327}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ProjectMonster">
+      <UniqueIdentifier>{A667030A-753C-4E6A-B7D8-EE2F8A7B62D7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ProjectMonster\ProjectMonster.Build.cs">
+      <Filter>Source\ProjectMonster</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ProjectMonster\ProjectMonster.cpp">
+      <Filter>Source\ProjectMonster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectMonster\ProjectMonster.h">
+      <Filter>Source\ProjectMonster</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ProjectMonster\ProjectMonsterGameModeBase.cpp">
+      <Filter>Source\ProjectMonster</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ProjectMonster\ProjectMonsterGameModeBase.h">
+      <Filter>Source\ProjectMonster</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
