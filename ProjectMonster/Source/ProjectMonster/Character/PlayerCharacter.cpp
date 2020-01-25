@@ -10,11 +10,12 @@ APlayerCharacter::APlayerCharacter()
 	PrimaryActorTick.bCanEverTick = true;
 
 	CameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Camera Spring Arm"));
-	CameraSpringArm->AttachTo(RootComponent);
-	CameraSpringArm->TargetArmLength = 200.f;
+	CameraSpringArm->SetupAttachment(RootComponent);
+	CameraSpringArm->SetWorldRotation(FRotator( 320.f, 0.f, 0.f));
+	CameraSpringArm->TargetArmLength = 250.f;
 
 	PlayerCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("Player Camera"));
-	PlayerCamera->AttachTo(CameraSpringArm);
+	PlayerCamera->SetupAttachment(CameraSpringArm);
 }
 
 // Called when the game starts or when spawned

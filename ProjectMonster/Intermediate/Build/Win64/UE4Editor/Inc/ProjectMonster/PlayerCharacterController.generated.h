@@ -13,10 +13,32 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PROJECTMONSTER_PlayerCharacterController_generated_h
 
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_SPARSE_DATA
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_RPC_WRAPPERS
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_INCLASS_NO_PURE_DECLS \
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_SPARSE_DATA
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execMoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Axis); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveForward(Z_Param_Axis); \
+		P_NATIVE_END; \
+	}
+
+
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execMoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_Axis); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveForward(Z_Param_Axis); \
+		P_NATIVE_END; \
+	}
+
+
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacterController(); \
 	friend struct Z_Construct_UClass_APlayerCharacterController_Statics; \
@@ -25,7 +47,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacterController)
 
 
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_INCLASS \
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAPlayerCharacterController(); \
 	friend struct Z_Construct_UClass_APlayerCharacterController_Statics; \
@@ -34,7 +56,7 @@ public: \
 	DECLARE_SERIALIZER(APlayerCharacterController)
 
 
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_STANDARD_CONSTRUCTORS \
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerCharacterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerCharacterController) \
@@ -47,7 +69,7 @@ private: \
 public:
 
 
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_ENHANCED_CONSTRUCTORS \
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API APlayerCharacterController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,28 +82,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APlayerCharacterController); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(APlayerCharacterController)
 
 
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_PRIVATE_PROPERTY_OFFSET
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_12_PROLOG
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_GENERATED_BODY_LEGACY \
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_PRIVATE_PROPERTY_OFFSET
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_13_PROLOG
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_PRIVATE_PROPERTY_OFFSET \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_SPARSE_DATA \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_RPC_WRAPPERS \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_INCLASS \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_STANDARD_CONSTRUCTORS \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_PRIVATE_PROPERTY_OFFSET \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_SPARSE_DATA \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_RPC_WRAPPERS \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_INCLASS \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_GENERATED_BODY \
+#define ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_PRIVATE_PROPERTY_OFFSET \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_SPARSE_DATA \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_INCLASS_NO_PURE_DECLS \
-	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_15_ENHANCED_CONSTRUCTORS \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_PRIVATE_PROPERTY_OFFSET \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_SPARSE_DATA \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_INCLASS_NO_PURE_DECLS \
+	ProjectMonster_Source_ProjectMonster_Character_PlayerCharacterController_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

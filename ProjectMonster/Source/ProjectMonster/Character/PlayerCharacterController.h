@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "PlayerCharacterController.generated.h"
+class APlayerCharacter;
 
 /**
  * 
@@ -19,6 +20,9 @@ public:
 
 	virtual void SetupInputComponent() override;
 
+	UFUNCTION()
 	void MoveForward(float Axis);
 	
+	UPROPERTY()
+	APlayerCharacter* PossesedCharacter;
 };

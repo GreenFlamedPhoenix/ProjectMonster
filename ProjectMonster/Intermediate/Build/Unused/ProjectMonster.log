@@ -1,7 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\ProjectMonster).
   Parsing headers for ProjectMonsterEditor
     Running UnrealHeaderTool "E:\ProjectMonster\ProjectMonster\ProjectMonster.uproject" "E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\ProjectMonsterEditor\Development\ProjectMonsterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ProjectMonsterEditor in 17.9878966 seconds
+  Reflection code generated for ProjectMonsterEditor in 9.2801571 seconds
   Building ProjectMonsterEditor...
   Using Visual Studio 2017 14.16.27031 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -12,11 +12,11 @@
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ProjectMonsterEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
   Building 4 actions with 8 processes...
-    [1/4] PlayerCharacterController.cpp
-    [2/4] UE4Editor-ProjectMonster-0009.lib
-       Creating library E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0009.lib and object E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0009.exp
-    [3/4] UE4Editor-ProjectMonster-0009.dll
-       Creating library E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0009.suppressed.lib and object E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0009.suppressed.exp
+    [1/4] PlayerCharacter.cpp
+    [2/4] UE4Editor-ProjectMonster-0001.lib
+       Creating library E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0001.lib and object E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0001.exp
+    [3/4] UE4Editor-ProjectMonster-0001.dll
+       Creating library E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0001.suppressed.lib and object E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\UE4Editor-ProjectMonster-0001.suppressed.exp
     [4/4] ProjectMonsterEditor.target
-  Total time in Parallel executor: 4.64 seconds
-  Total execution time: 24.83 seconds
+  Total time in Parallel executor: 3.83 seconds
+  Total execution time: 14.53 seconds
