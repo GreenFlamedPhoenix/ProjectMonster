@@ -6,4 +6,8 @@ D:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 D:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 D:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 D:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+D:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+D:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+D:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+D:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 e:\projectmonster\projectmonster\intermediate\build\win64\ue4editor\inc\projectmonster\PlayerCharacter.generated.h

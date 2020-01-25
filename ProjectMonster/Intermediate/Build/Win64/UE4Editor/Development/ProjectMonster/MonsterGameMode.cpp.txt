@@ -1,0 +1,7 @@
+E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Development\ProjectMonster\Definitions.ProjectMonster.h
+e:\projectmonster\projectmonster\source\projectmonster\modesandsettings\gamemodes\MonsterGameMode.h
+D:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\Unreal\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+D:\Unreal\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+E:\ProjectMonster\ProjectMonster\Intermediate\Build\Win64\UE4Editor\Inc\ProjectMonster\MonsterGameMode.generated.h

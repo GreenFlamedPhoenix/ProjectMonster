@@ -373,9 +373,11 @@
     <None Include="..\..\Source\ProjectMonster\ProjectMonster.Build.cs" />
     <ClCompile Include="..\..\Source\ProjectMonster\Character\PlayerCharacter.cpp" />
     <ClCompile Include="..\..\Source\ProjectMonster\Character\PlayerCharacterController.cpp" />
+    <ClCompile Include="..\..\Source\ProjectMonster\ModesAndSettings\GameModes\MonsterGameMode.cpp" />
     <ClCompile Include="..\..\Source\ProjectMonster\ProjectMonster.cpp" />
     <ClInclude Include="..\..\Source\ProjectMonster\Character\PlayerCharacter.h" />
     <ClInclude Include="..\..\Source\ProjectMonster\Character\PlayerCharacterController.h" />
+    <ClInclude Include="..\..\Source\ProjectMonster\ModesAndSettings\GameModes\MonsterGameMode.h" />
     <ClInclude Include="..\..\Source\ProjectMonster\ProjectMonster.h" />
     <ClCompile Include="..\..\Source\ProjectMonster\ProjectMonsterGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\ProjectMonster\ProjectMonsterGameModeBase.h" />

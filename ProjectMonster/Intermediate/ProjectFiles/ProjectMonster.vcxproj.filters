@@ -46,6 +46,12 @@
     <Filter Include="Source\ProjectMonster\Character">
       <UniqueIdentifier>{8db6f053-48f3-4009-ba1b-debbaf520d8f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ProjectMonster\ModesAndSettings">
+      <UniqueIdentifier>{86c092e1-362d-495b-b7a0-830d6bcdcb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ProjectMonster\ModesAndSettings\GameModes">
+      <UniqueIdentifier>{cc31ae47-16ac-4d63-b0ac-af3c6cdbca95}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\ProjectMonster\Character\PlayerCharacter.h">
@@ -54,6 +60,9 @@
     <ClInclude Include="..\..\Source\ProjectMonster\Character\PlayerCharacterController.h">
       <Filter>Source\ProjectMonster\Character</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ProjectMonster\ModesAndSettings\GameModes\MonsterGameMode.h">
+      <Filter>Source\ProjectMonster\ModesAndSettings\GameModes</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ProjectMonster\Character\PlayerCharacter.cpp">
@@ -61,6 +70,9 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\ProjectMonster\Character\PlayerCharacterController.cpp">
       <Filter>Source\ProjectMonster\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ProjectMonster\ModesAndSettings\GameModes\MonsterGameMode.cpp">
+      <Filter>Source\ProjectMonster\ModesAndSettings\GameModes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

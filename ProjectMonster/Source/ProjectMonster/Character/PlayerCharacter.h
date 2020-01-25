@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
 #include "PlayerCharacter.generated.h"
 
 UCLASS()
@@ -26,4 +28,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY()
+	USpringArmComponent* CameraSpringArm;
+
+	UPROPERTY()
+	UCameraComponent* PlayerCamera;
 };
